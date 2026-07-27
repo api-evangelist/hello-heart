@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.helloheart.com/security
+url: https://www.helloheart.com/security
+trust_portal: https://trust.helloheart.com
+certifications:
+- SOC 2 Type 2
+- HITRUST CSF
+- NIST CSF
+- HIPAA
+notes: >-
+  /security lists HITRUST CSF Certified, SOC 2 Type 2, NIST CSF compliant, and
+  HIPAA. Data encrypted in transit and at rest; all data stored within U.S.
+  borders; annual third-party audits. A trust.helloheart.com portal exists but
+  currently renders as a minimal placeholder.
+evidence:
+- source: https://www.helloheart.com/security
+  keywords:
+  - hitrust csf
+  - soc 2 type 2
+  - nist csf
+  - hipaa

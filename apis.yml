@@ -1,9 +1,30 @@
 aid: hello-heart
 name: Hello Heart
-description: 'Hello Heart is a company surfaced as a portfolio company of ivp and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Hello Heart is a digital health company that combines a mobile app, connected
+  blood-pressure monitors, a smart pill box, and the Nia AI assistant (trained
+  on ACC/AHA guidelines) to help people proactively manage cardiovascular
+  health. Sold primarily to employers, health plans, unions, and public-sector
+  benefits programs as a covered heart-health benefit, the platform pairs
+  self-monitoring with clinically-grounded, "safe AI" coaching to lower blood
+  pressure and reduce cardiac risk. Hello Heart is HITRUST CSF certified, SOC 2
+  Type 2 audited, NIST CSF aligned, and HIPAA compliant, with data encrypted in
+  transit and at rest and stored within U.S. borders. It exposes no public
+  developer API; this profile captures the company's public identity, security,
+  and compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/hello-heart/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64cad0eb87ec6044a0027bf1/65c518db03b5cb5358f0883d_HH-HeartSymbol-red-webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,16 +33,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
-apis: []
+- Digital Health
+- Cardiovascular
+- Blood Pressure
+- Hypertension
+- Remote Patient Monitoring
+- Health AI
+- Employer Benefits
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://www.helloheart.com
+- type: About
+  url: https://www.helloheart.com/about/company
+- type: Careers
+  url: https://www.helloheart.com/about/careers
+- type: Blog
+  url: https://www.helloheart.com/about/blog
+- type: Support
+  url: https://support.helloheart.com/hc/en-us
+- type: SignUp
+  url: https://join.helloheart.com/
+- type: TermsOfService
+  url: https://www.helloheart.com/terms
+- type: PrivacyPolicy
+  url: https://www.helloheart.com/privacy-notice
+- type: Compliance
+  url: https://www.helloheart.com/security
+- type: TrustCenter
+  url: security/hello-heart-trust-center.yml
+- type: DomainSecurity
+  url: security/hello-heart-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
