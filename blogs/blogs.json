@@ -2,6 +2,20 @@
   "repo": "hello-heart",
   "feeds": [
     {
+      "source": "https://www.helloheart.com/about/blog",
+      "feed_url": "https://www.helloheart.com/about/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.helloheart.com/post/rss.xml",
+      "feed_url": "https://www.helloheart.com/post/rss.xml",
+      "title": "",
+      "saved": 60,
+      "method": "feed"
+    },
+    {
       "source": "https://www.helloheart.com/about/careers",
       "feed_url": "https://www.helloheart.com/about/careers",
       "title": "",
@@ -9,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 60,
+  "fetched": "2026-10-10T13:15:00Z"
 }
